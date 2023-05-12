@@ -1,0 +1,95 @@
+.container-gallery {
+    height: 20%;
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+
+}
+
+.container-map {
+    width: 50%;
+    padding: 25vh;
+    float: left;
+    height: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: grid;
+    place-items: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: #F3A571;
+}
+
+.leaflet-container{
+    width: 80vh;
+    height:  40vh;
+    border-radius: 20px;
+}
+
+.container-img {
+    width: 50%;
+    padding: 25vh;
+    float: right;
+    height: 50%;
+    padding-left: 7.5px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-right: 7.5px;
+    display: grid;
+    place-items: center;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #F3A571;
+}
+
+.container-img img{
+    width: 80vh;
+    height: 40vh;
+}
+
+.gallery {
+    margin: 150px;
+    display: flex;
+    width: 25cm;
+    height: 200px;
+    position: relative;
+    place-items: center;
+}
+
+.gallery img {
+    min-width: 0;
+    flex: 1 1 10px;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+    height: 240px;
+}
+
+.gallery img:hover {
+    flex: 1 1 280px;
+    opacity: 1;
+}
+
+
+@media screen and (max-width:940px) {
+    .container-gallery .content p:nth-child(3) {
+        font-size: 2.6rem;
+    }
+
+    .container-gallery .content p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+

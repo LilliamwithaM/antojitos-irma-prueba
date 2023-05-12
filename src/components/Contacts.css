@@ -1,0 +1,45 @@
+.contacts {
+    width: 100%;
+    background-color: #F3A571;
+    color: #000000;
+    padding: 1rem 1rem;
+}
+
+.contacts .container {
+    max-width: 1240px;
+    margin: auto;
+    text-align: center;
+}
+
+.contacts ul {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts li {
+    padding: 1rem;
+}
+
+.contacts li a {
+    color: #000000;
+}
+
+.contacts li a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid black;
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.line {
+    margin-bottom: 1.5rem;
+    background-color: black;
+}
+
+
+
+
+
