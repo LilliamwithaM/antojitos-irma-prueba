@@ -26,6 +26,10 @@
 .list-products > div{
     width: 50%;
 }
+
+.list-products p{
+    font-weight: bolder;
+}
 .products .col-2 {
     width: 100%;
     display: flex;
