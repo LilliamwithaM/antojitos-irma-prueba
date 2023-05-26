@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contacts.css';
-
+import About from '../components/images/about.png'
 const Contacts = () => {
     return (
         <div className='contacts' id='contacts'>
